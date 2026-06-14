@@ -22,15 +22,11 @@ Sistema de verificación con CAPTCHA para Discord hecho en BDFD.
 
 ### 👋 Mensaje de bienvenida
 
-Pon aquí una captura del mensaje principal de verificación.
-
 /assets/welcome.png
 
 ---
 
 ### 🧩 Selección del CAPTCHA
-
-Muestra aquí cómo se ve el CAPTCHA interactivo.
 
 /assets/captcha.png
 
@@ -38,23 +34,17 @@ Muestra aquí cómo se ve el CAPTCHA interactivo.
 
 ### ✅ Usuario verificado
 
-Captura del mensaje cuando el usuario completa la verificación correctamente.
-
 /assets/success.png
 
 ---
 
 ### ❌ CAPTCHA incorrecto
 
-Muestra el mensaje de error cuando el usuario falla el CAPTCHA.
-
 /assets/error.png
 
 ---
 
 ### 🔒 Usuario ya verificado
-
-Captura del mensaje cuando el usuario ya tiene el rol de verificación.
 
 /assets/already_verified.png
 
