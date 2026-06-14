@@ -30,25 +30,33 @@ Sistema de verificación con CAPTCHA para Discord hecho en BDFD.
 
 ### 🧩 Selección del CAPTCHA
 
-/assets/captcha.png
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/captcha.png" width="850">
+</p>
 
 ---
 
 ### ✅ Usuario verificado
 
-/assets/success.png
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/success.png" width="850">
+</p>
 
 ---
 
 ### ❌ CAPTCHA incorrecto
 
-/assets/error.png
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/error.png" width="850">
+</p>
 
 ---
 
 ### 🔒 Usuario ya verificado
 
-/assets/already_verified.png
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/already_verified.png" width="850">
+</p>
 
 ---
 
