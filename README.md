@@ -31,7 +31,7 @@ Sistema de verificación con CAPTCHA para Discord hecho en BDFD.
 ### 🧩 Selección del CAPTCHA
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/captcha.png" width="850">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/screenshots/captcha.png" width="850">
 </p>
 
 ---
@@ -39,7 +39,7 @@ Sistema de verificación con CAPTCHA para Discord hecho en BDFD.
 ### ✅ Usuario verificado
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/success.png" width="850">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/screenshots/success.png" width="850">
 </p>
 
 ---
@@ -47,7 +47,7 @@ Sistema de verificación con CAPTCHA para Discord hecho en BDFD.
 ### ❌ CAPTCHA incorrecto
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/error.png" width="850">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/screenshots/error.png" width="850">
 </p>
 
 ---
@@ -55,7 +55,7 @@ Sistema de verificación con CAPTCHA para Discord hecho en BDFD.
 ### 🔒 Usuario ya verificado
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/already_verified.png" width="850">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/screenshots/already_verified.png" width="850">
 </p>
 
 ---
