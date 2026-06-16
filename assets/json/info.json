@@ -1,4 +1,10 @@
 {
+ "system": {
+   "name": "Twis Verification",
+   "current_version": "1.01",
+   "update_version": "1.02",
+   "image_url": "https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/images/generated_codes/$json[$var[set_códe];code].webp"
+ },
   "1": {
     "code": "JY5UYM",
     "generated_codes": {
