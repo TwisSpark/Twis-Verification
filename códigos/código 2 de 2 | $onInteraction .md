@@ -52,11 +52,14 @@ Si algo no funciona, revisa eso primero antes de decir que el sistema está roto
 
 ```
 $onlyIf[$checkContains[$customID;TwisCaptchaSelect;TwismenúVerify]==true;]
+$httpGet[https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/json/info.json]
+$jsonParse[$httpResult]
+$var[set_códe;$random[1;7]]
+
 $var[rol_id;1515560567815802920] $c[← Cambia esta ID por el rol que quieres dar a los usuarios cuando completen la verificación]
 
 $if[$customID==TwisCaptchaSelect]
 $if[$hasRole[$authorID;$var[rol_id]]==false]
-$httpGet[https://akiomae.xyz/api/others/captcha.php]
 $ephemeral 
 $addContainer[TwisCaptchaSelect;#673ab7]
 $addTextDisplay[## 🧩 Elije el código del CAPTCHA;TwisCaptchaSelect]
@@ -64,15 +67,15 @@ $addSeparator[true;large;TwisCaptchaSelect]
 $addTextDisplay[Selecciona el código correcto para completar la verificación y acceder al servidor.;TwisCaptchaSelect]
 $addSeparator[false;large;TwisCaptchaSelect]
 $addMediaGallery[imagen;TwisCaptchaSelect]
-$addMediaGalleryItem[$httpResult[api_response;url];;false;imagen]
+$addMediaGalleryItem[$replaceText[$json[system;image_url];{{code}};$json[$var[set_códe];code]];;false;imagen]
 $addSeparator[true;large;TwisCaptchaSelect]
 $addActionRow[menú;TwisCaptchaSelect]
 $addStringSelect[TwismenúVerify;Elige alguna opción;1;1;false;menú]
-$addStringSelectOption[$httpResult[generated_codes;code1];TwisVerify-$httpResult[generated_codes;code1]==$httpResult[api_response;code];;;false;TwismenúVerify]
-$addStringSelectOption[$httpResult[generated_codes;code2];TwisVerify-$httpResult[generated_codes;code2]==$httpResult[api_response;code];;;false;TwismenúVerify]
-$addStringSelectOption[$httpResult[generated_codes;code3];TwisVerify-$httpResult[generated_codes;code3]==$httpResult[api_response;code];;;false;TwismenúVerify]
-$addStringSelectOption[$httpResult[generated_codes;code4];TwisVerify-$httpResult[generated_codes;code4]==$httpResult[api_response;code];;;false;TwismenúVerify]
-$addStringSelectOption[$httpResult[generated_codes;code5];TwisVerify-$httpResult[generated_codes;code5]==$httpResult[api_response;code];;;false;TwismenúVerify]
+$addStringSelectOption[$json[$var[set_códe];generated_codes;1];TwisVerify-$json[$var[set_códe];generated_codes;1]==$json[$var[set_códe];code];;;false;TwismenúVerify]
+$addStringSelectOption[$json[$var[set_códe];generated_codes;2];TwisVerify-$json[$var[set_códe];generated_codes;2]==$json[$var[set_códe];code];;;false;TwismenúVerify]
+$addStringSelectOption[$json[$var[set_códe];generated_codes;3];TwisVerify-$json[$var[set_códe];generated_codes;3]==$json[$var[set_códe];code];;;false;TwismenúVerify]
+$addStringSelectOption[$json[$var[set_códe];generated_codes;4];TwisVerify-$json[$var[set_códe];generated_codes;4]==$json[$var[set_códe];code];;;false;TwismenúVerify]
+$addStringSelectOption[$json[$var[set_códe];generated_codes;5];TwisVerify-$json[$var[set_códe];generated_codes;5]==$json[$var[set_códe];code];;;false;TwismenúVerify]
 $else
 $ephemeral
 $addContainer[TwisAlreadyVerified;#2196f3]
@@ -100,7 +103,3 @@ $endif
 $endif 
 
 ```
-
-
-
-
