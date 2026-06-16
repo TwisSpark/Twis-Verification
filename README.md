@@ -23,7 +23,7 @@ Sistema de verificación con CAPTCHA para Discord hecho en BDFD.
 ### 👋 Mensaje de bienvenida
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/welcome.png" width="850">
+  <img src="https://raw.githubusercontent.com/TwisSpark/Twis-Verification/refs/heads/main/assets/screenshots/welcome.png" width="850">
 </p>
 
 ---
